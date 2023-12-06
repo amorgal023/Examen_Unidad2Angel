@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tareas</string>
+    <string name="strHombre">HOMBRE</string>
+    <string name="strMujer">MUJER</string>
+    <string name="strAltura">ALTURA</string>
+    <string name="strPeso">PESO</string>
+    <string name="strEdad">EDAD</string>
+    <string name="strMinus">-</string>
+    <string name="strPlus">+</string>
+    <string name="strBtCalcular">CALCULAR</string>
+</resources>
