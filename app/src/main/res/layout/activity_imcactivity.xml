@@ -1,4 +1,4 @@
-                                                                                                                                                 <?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -41,6 +41,7 @@
                     android:fontFamily="sans-serif"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
+                    android:textColor="@color/white"
                     android:textSize="20sp"
                     android:text="@string/strHombre"></TextView>
             </LinearLayout>
@@ -50,7 +51,7 @@
             android:id="@+id/cvMujer"
             android:layout_width="180dp"
             android:layout_height="160dp"
-            app:cardBackgroundColor="@color/DarkGrey"
+            app:cardBackgroundColor="@color/Grey"
             app:cardCornerRadius="20dp"
             android:text="@string/strMujer"
             app:layout_constraintTop_toTopOf="parent"
@@ -74,6 +75,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="20sp"
+                    android:textColor="@color/white"
                     android:text="@string/strMujer"></TextView>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -105,9 +107,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="35sp"
-            tools:text="VALOR">
+            android:text="0">
         </TextView>
         <com.google.android.material.slider.RangeSlider
+            android:id="@+id/rgSlider"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:valueFrom="120"
@@ -122,8 +125,8 @@
         android:id="@+id/cvPeso"
         android:layout_width="150dp"
         android:layout_height="150dp"
-        android:background="@color/Grey"
-        app:cardCornerRadius="25dp"
+        android:background="@color/purple_500"
+        app:cardCornerRadius="20dp"
         app:layout_constraintTop_toBottomOf="@id/cvBarrita"
         app:layout_constraintBottom_toTopOf="@id/butCalcular"
         app:layout_constraintStart_toStartOf="parent"
@@ -138,14 +141,14 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:text="@string/strPeso"/>
             <TextView
                 android:id="@+id/tvPesoNum"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="25dp"
-                tools:text="VALOR"/>
+                android:textSize="25sp"
+                android:text="0"/>
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -201,7 +204,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="25dp"
-                tools:text="VALOR"/>
+                android:text="0"/>
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -234,6 +237,7 @@
         android:id="@+id/butCalcular"
         android:layout_width="match_parent"
         android:layout_height="80dp"
+        android:textColor="@color/white"
         android:background="@color/Grey"
         android:text="CALCULAR"
         app:layout_constraintBottom_toBottomOf="parent">

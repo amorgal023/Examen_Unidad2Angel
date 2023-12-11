@@ -9,6 +9,7 @@
     <color name="notPureBlack">#131313</color>
     <color name="DarkGrey">#212121</color>
     <color name="Grey">#313131</color>
+    <color name="lightGrey">#6E6E6E</color>
     <color name="white">#FAFAFA</color>
     <color name="cyan">#00FFD9</color>
 </resources>
