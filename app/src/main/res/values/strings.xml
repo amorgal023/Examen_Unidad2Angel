@@ -8,4 +8,9 @@
     <string name="strMinus">-</string>
     <string name="strPlus">+</string>
     <string name="strBtCalcular">CALCULAR</string>
+    <string name="strComplexion">COMPLEXIÓN</string>
+    <string name="strComplexionInicial">DELGADO</string>
+    <string name="strResultado">Tu resultado</string>
+    <string name="strBtRecalcular">RECALCULAR</string>
+
 </resources>
